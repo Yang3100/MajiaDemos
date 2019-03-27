@@ -1,0 +1,1 @@
+../../../QCloudCOSV4/coslib/COSClient.h

@@ -1,0 +1,166 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CHTCollectionViewWaterfallLayout (0.9.7):
+    - CHTCollectionViewWaterfallLayout/ObjC (= 0.9.7)
+  - CHTCollectionViewWaterfallLayout/ObjC (0.9.7)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - iCarousel (1.8.3)
+  - IQKeyboardManager (6.1.0)
+  - KVOController (1.2.0)
+  - libextobjc (0.4.1):
+    - libextobjc/EXTADT (= 0.4.1)
+    - libextobjc/EXTConcreteProtocol (= 0.4.1)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1)
+    - libextobjc/EXTNil (= 0.4.1)
+    - libextobjc/EXTSafeCategory (= 0.4.1)
+    - libextobjc/EXTScope (= 0.4.1)
+    - libextobjc/EXTSelectorChecking (= 0.4.1)
+    - libextobjc/EXTSynthesize (= 0.4.1)
+    - "libextobjc/NSInvocation+EXT (= 0.4.1)"
+    - "libextobjc/NSMethodSignature+EXT (= 0.4.1)"
+    - libextobjc/RuntimeExtensions (= 0.4.1)
+    - libextobjc/UmbrellaHeader (= 0.4.1)
+  - libextobjc/EXTADT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSInvocation+EXT (0.4.1)":
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSMethodSignature+EXT (0.4.1)":
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - libextobjc/UmbrellaHeader (0.4.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.3)
+  - QCloudCOSV4 (1.6.1)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+  - TTTAttributedLabel (2.0.0)
+  - TXScrollLabelView (1.3.2)
+  - UAProgressView (0.1.4)
+  - UICollectionViewLeftAlignedLayout (1.0.2)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BlocksKit
+  - CHTCollectionViewWaterfallLayout
+  - FMDB
+  - iCarousel
+  - IQKeyboardManager
+  - KVOController
+  - libextobjc
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - QCloudCOSV4
+  - SDCycleScrollView
+  - TTTAttributedLabel
+  - TXScrollLabelView
+  - UAProgressView
+  - UICollectionViewLeftAlignedLayout
+  - "UITableView+FDTemplateLayoutCell"
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BlocksKit
+    - CHTCollectionViewWaterfallLayout
+    - FMDB
+    - iCarousel
+    - IQKeyboardManager
+    - KVOController
+    - libextobjc
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - QCloudCOSV4
+    - SDCycleScrollView
+    - SDWebImage
+    - TTTAttributedLabel
+    - TXScrollLabelView
+    - UAProgressView
+    - UICollectionViewLeftAlignedLayout
+    - "UITableView+FDTemplateLayoutCell"
+    - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CHTCollectionViewWaterfallLayout: 9d11068fafecac106695bb5a5d6d0f738483b598
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  IQKeyboardManager: f520b0f411eaefa08058532cb50c48bfeffa8535
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  QCloudCOSV4: 5deefe30092409846a86a097f5acede9eea1dccb
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  TXScrollLabelView: 0e1650caf61198bf5dc0938ea6493254aeb80f90
+  UAProgressView: 6796f5aa05037fb2940521636163b9db40a6c534
+  UICollectionViewLeftAlignedLayout: 830bf6fa5bab9f9b464f62e3384f9d2e00b3c0f6
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 7fc95e509ccabc84cb78e39e973d5b0cb8a62967
+
+COCOAPODS: 1.5.3

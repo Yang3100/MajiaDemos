@@ -1,0 +1,77 @@
+//
+//  PrefixHeader.pch
+//  YunFengSi
+//
+//  Created by 杨科军 on 2018/9/17.
+//  Copyright © 2018年 杨科军. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <objc/runtime.h>  // Objective-C是基于C加入了面向对象特性和消息转发机制的动态语言
+
+#import <AFNetworking.h>  // 网络相关
+#import <UIKit+AFNetworking.h>
+#import <YYKit.h>         //
+#import <Masonry.h>       // 自动布局,约束相关
+#import <IQKeyboardManager.h> // 弹出键盘相关
+#import <MJRefresh.h>       // 刷新
+#import <MJExtension.h>
+#import <MBProgressHUD.h>   // 指示器
+#import <FBKVOController.h> // KVO
+#import <BlocksKit.h>       // 强大的回调库
+#import <BlocksKit/BlocksKit+UIKit.h>
+#import <iCarousel.h>       // 轮播库
+#import <SDImageCache.h>    // 网络加载图片相关
+#import <UIImageView+WebCache.h>
+#import <FMDB.h>            // 本地数据库
+#import "GDataBase.h"       // sqlite数据库
+
+// UIKit
+#import <SDCycleScrollView.h>  // 滚动banner
+#import <UAProgressView.h>     // 环形进度条
+
+#import "KJBaseTableViewCell.h"        // 底层cell
+#import "KJBaseView.h"
+#import "KJBaseViewController.h"       // 底层ViewController
+#import "KJBaseNavigationController.h" // 底层NavigationController
+#import "KJBaseTableViewController.h"  // 底层TableViewController
+#import "KJBaseCollectionViewController.h" // 底层CollectionViewController
+
+#import "InitializationUIMethod.h" // 创建常用UI子类，避免重复编码，造成大量创建代码冗余
+//#import "KJNetManager.h"           // 网络请求接口类
+#import "KJTools.h"        // 工具类
+#import "KJEncryptTool.h"  // 加密解密
+#import "KJAlertView.h"
+#import "KJTencentUploadTools.h"  // 上传工具
+#import "KJPhotoChangeManager.h"  // 打开相册
+#import "KJWebVC.h"        // h5显示界面
+#import "JHChartHeader.h"  // 图表工具库，实现了折线图、柱状图、饼状图、环形图和表格样式的图表功能
+
+// Category
+#import "UIView+KJ.h"    // UIView扩展
+#import "UITextView+KJ.h"
+#import "NSString+KJ.h"   // 字符串扩展
+#import "UITableView+FDTemplateLayoutCell.h" // cell自适应相关
+#import "UIButton+EnlargeEdge.h"   // 关于button的扩展
+#import "UIBarButtonItem+FYExtension.h" // 关于navigationBarItem
+#import "UINavigationBar+Awesome.h"// 设置navigation的背景颜色
+#import "NSObject+KJRandom.h"    // 随机数
+#import "UIFont+KJExtension.h"   // 字体大小
+#import "NSDate+Extension.h"
+#import "NSDateFormatter+Extension.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import "MBProgressHUD+KJExtension.h"  // 指示器
+#import "MBProgressHUD+PX.h"
+
+#import "Macros.h"                 // 全局宏
+#import "RequestHeader.h"          // 网络请求头文件
+#import "HNRequestManager.h"       // 网络请求
+
+#endif /* PrefixHeader_pch */
