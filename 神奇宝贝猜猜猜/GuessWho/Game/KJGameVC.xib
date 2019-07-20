@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KJGameVC">
+            <connections>
+                <outlet property="A_Button" destination="Ma8-9P-WHl" id="3Ca-Vd-UpD"/>
+                <outlet property="B_Button" destination="mqP-fD-INi" id="cAY-mB-sHX"/>
+                <outlet property="C_Button" destination="Ru6-g3-JlZ" id="rAB-mR-Flf"/>
+                <outlet property="D_Button" destination="EUV-1z-2FE" id="fk6-Fm-uBg"/>
+                <outlet property="DisplayScnview" destination="DUU-FD-hPl" id="j70-3O-mMi"/>
+                <outlet property="leftBoxImageView" destination="hwi-sR-6tf" id="eCZ-oG-1Du"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_bg" translatesAutoresizingMaskIntoConstraints="NO" id="AOY-Or-d02">
+                    <rect key="frame" x="-64" y="0.0" width="775" height="395"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rI5-y1-yCK">
+                    <rect key="frame" x="30" y="320" width="63" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="返回" image="wode_nor"/>
+                    <connections>
+                        <action selector="backClickButton:" destination="-1" eventType="touchUpInside" id="yc9-QC-8zA"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="z_box" translatesAutoresizingMaskIntoConstraints="NO" id="hwi-sR-6tf">
+                    <rect key="frame" x="20" y="20" width="214" height="285"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="hwi-sR-6tf" secondAttribute="height" multiplier="3:4" id="SxX-um-fKO"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DUU-FD-hPl" customClass="SCNView">
+                    <rect key="frame" x="35" y="35" width="184" height="245"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GoX-Tb-GHG">
+                    <rect key="frame" x="254" y="20" width="393" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="K0H-Hq-3kZ"/>
+                    </constraints>
+                    <string key="text">简介：
+神奇的口袋中的宝贝简称神奇宝贝，是这个星球上非常不可思议的生物。现在开始讲述少年“小智”和神奇宝贝们的相遇、冒险和战斗经历的故事。 立志成为神奇宝贝训练大师的小智，胸中怀着新的理想，带着皮卡丘终于来到了神奥地区。与在路上认识的刚成为神奇宝贝协调训练家的小光以及长期的旅途伙伴小刚结伴为了追寻梦想和冒险开始神奥地区的旅程</string>
+                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_box" translatesAutoresizingMaskIntoConstraints="NO" id="ui0-1w-CYG">
+                    <rect key="frame" x="254" y="160" width="393" height="195"/>
+                </imageView>
+                <button opaque="NO" tag="520" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ma8-9P-WHl">
+                    <rect key="frame" x="274" y="180" width="353" height="24"/>
+                    <state key="normal" title="A.皮卡皮卡"/>
+                    <connections>
+                        <action selector="ClickButton:" destination="-1" eventType="touchUpInside" id="uP9-ev-3Xf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="523" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUV-1z-2FE">
+                    <rect key="frame" x="274" y="311.5" width="353" height="23.5"/>
+                    <state key="normal" title="D.皮卡丘"/>
+                    <connections>
+                        <action selector="ClickButton:" destination="-1" eventType="touchUpInside" id="EKS-Bt-kMG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="521" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqP-fD-INi">
+                    <rect key="frame" x="274" y="224" width="353" height="23.5"/>
+                    <state key="normal" title="B.动画号"/>
+                    <connections>
+                        <action selector="ClickButton:" destination="-1" eventType="touchUpInside" id="2lX-P5-WEs"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="522" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ru6-g3-JlZ">
+                    <rect key="frame" x="274" y="267.5" width="353" height="24"/>
+                    <state key="normal" title="C.黄老鼠"/>
+                    <connections>
+                        <action selector="ClickButton:" destination="-1" eventType="touchUpInside" id="dlE-B9-4Hx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REP-k7-FOJ">
+                    <rect key="frame" x="113" y="320" width="63" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="静音" image="wode_nor"/>
+                    <connections>
+                        <action selector="soundClickButton:" destination="-1" eventType="touchUpInside" id="zE3-YS-fZz"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="DUU-FD-hPl" firstAttribute="centerX" secondItem="hwi-sR-6tf" secondAttribute="centerX" id="1E2-rd-prb"/>
+                <constraint firstItem="REP-k7-FOJ" firstAttribute="leading" secondItem="rI5-y1-yCK" secondAttribute="trailing" constant="20" id="1hc-wF-rjk"/>
+                <constraint firstItem="EUV-1z-2FE" firstAttribute="top" secondItem="Ru6-g3-JlZ" secondAttribute="bottom" constant="20" id="66N-OL-6le"/>
+                <constraint firstItem="GoX-Tb-GHG" firstAttribute="leading" secondItem="hwi-sR-6tf" secondAttribute="trailing" constant="20" id="8Iz-ef-2Pu"/>
+                <constraint firstItem="REP-k7-FOJ" firstAttribute="centerY" secondItem="rI5-y1-yCK" secondAttribute="centerY" id="8fZ-YP-m4s"/>
+                <constraint firstItem="ui0-1w-CYG" firstAttribute="top" secondItem="GoX-Tb-GHG" secondAttribute="bottom" constant="20" id="9t5-J5-BV7"/>
+                <constraint firstItem="Ru6-g3-JlZ" firstAttribute="height" secondItem="Ma8-9P-WHl" secondAttribute="height" id="CIQ-4W-Jes"/>
+                <constraint firstItem="Ma8-9P-WHl" firstAttribute="leading" secondItem="ui0-1w-CYG" secondAttribute="leading" constant="20" id="CWS-zY-aSu"/>
+                <constraint firstItem="mqP-fD-INi" firstAttribute="top" secondItem="Ma8-9P-WHl" secondAttribute="bottom" constant="20" id="DXY-6e-cb5"/>
+                <constraint firstItem="DUU-FD-hPl" firstAttribute="height" secondItem="hwi-sR-6tf" secondAttribute="height" constant="-40" id="EUb-dk-YX6"/>
+                <constraint firstAttribute="trailing" secondItem="GoX-Tb-GHG" secondAttribute="trailing" constant="20" id="FWX-7m-axG"/>
+                <constraint firstItem="GoX-Tb-GHG" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="GwG-w0-o3F"/>
+                <constraint firstItem="mqP-fD-INi" firstAttribute="height" secondItem="Ma8-9P-WHl" secondAttribute="height" id="KUL-7y-6LV"/>
+                <constraint firstItem="EUV-1z-2FE" firstAttribute="width" secondItem="Ma8-9P-WHl" secondAttribute="width" id="LK9-XZ-V0q"/>
+                <constraint firstItem="Ru6-g3-JlZ" firstAttribute="centerX" secondItem="Ma8-9P-WHl" secondAttribute="centerX" id="NsJ-Q6-HO1"/>
+                <constraint firstItem="rI5-y1-yCK" firstAttribute="leading" secondItem="hwi-sR-6tf" secondAttribute="leading" constant="10" id="OwQ-df-znw"/>
+                <constraint firstItem="DUU-FD-hPl" firstAttribute="width" secondItem="hwi-sR-6tf" secondAttribute="width" constant="-30" id="S9z-FQ-lFk"/>
+                <constraint firstItem="mqP-fD-INi" firstAttribute="centerX" secondItem="Ma8-9P-WHl" secondAttribute="centerX" id="a8Z-J5-TlY"/>
+                <constraint firstItem="EUV-1z-2FE" firstAttribute="centerX" secondItem="Ma8-9P-WHl" secondAttribute="centerX" id="aZA-HM-Nig"/>
+                <constraint firstItem="EUV-1z-2FE" firstAttribute="height" secondItem="Ma8-9P-WHl" secondAttribute="height" id="bI0-b2-Sze"/>
+                <constraint firstItem="mqP-fD-INi" firstAttribute="width" secondItem="Ma8-9P-WHl" secondAttribute="width" id="c7L-ji-Wdr"/>
+                <constraint firstItem="AOY-Or-d02" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="-64" id="dE6-cu-c7u"/>
+                <constraint firstItem="Ru6-g3-JlZ" firstAttribute="width" secondItem="Ma8-9P-WHl" secondAttribute="width" id="dhY-hJ-T1U"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="AOY-Or-d02" secondAttribute="trailing" constant="-44" id="goN-iH-NFE"/>
+                <constraint firstItem="ui0-1w-CYG" firstAttribute="leading" secondItem="hwi-sR-6tf" secondAttribute="trailing" constant="20" id="heC-bW-XTF"/>
+                <constraint firstItem="DUU-FD-hPl" firstAttribute="centerY" secondItem="hwi-sR-6tf" secondAttribute="centerY" constant="-5" id="kpk-db-GvY"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="ui0-1w-CYG" secondAttribute="trailing" constant="20" id="m0J-JQ-H7h"/>
+                <constraint firstItem="AOY-Or-d02" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="nB5-d9-tnS"/>
+                <constraint firstItem="hwi-sR-6tf" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="nH8-eC-LoZ"/>
+                <constraint firstItem="Ma8-9P-WHl" firstAttribute="top" secondItem="ui0-1w-CYG" secondAttribute="top" constant="20" id="nJh-mx-19g"/>
+                <constraint firstItem="hwi-sR-6tf" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="oXt-v7-d15"/>
+                <constraint firstItem="Ma8-9P-WHl" firstAttribute="trailing" secondItem="ui0-1w-CYG" secondAttribute="trailing" constant="-20" id="qfD-EX-1Rf"/>
+                <constraint firstItem="Ru6-g3-JlZ" firstAttribute="top" secondItem="mqP-fD-INi" secondAttribute="bottom" constant="20" id="w0L-f5-6Ak"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="ui0-1w-CYG" secondAttribute="bottom" constant="20" id="wTu-dU-Q1l"/>
+                <constraint firstItem="EUV-1z-2FE" firstAttribute="bottom" secondItem="ui0-1w-CYG" secondAttribute="bottom" constant="-20" id="wfu-a8-OaU"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="AOY-Or-d02" secondAttribute="bottom" constant="-20" id="xja-uY-1hZ"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="hwi-sR-6tf" secondAttribute="bottom" constant="70" id="yMS-4m-FJO"/>
+                <constraint firstItem="rI5-y1-yCK" firstAttribute="top" secondItem="hwi-sR-6tf" secondAttribute="bottom" constant="15" id="zls-m5-2g6"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="138.61607142857142" y="153.62318840579712"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="game_bg" width="1062" height="500"/>
+        <image name="game_box" width="584" height="453"/>
+        <image name="wode_nor" width="30" height="30"/>
+        <image name="z_box" width="366" height="453"/>
+    </resources>
+</document>

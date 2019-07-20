@@ -1,0 +1,10 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, ‘8.0’
+
+target '星空指南针' do
+
+#########  Tool  #########
+pod 'Masonry'  # 自动布局
+pod 'KJEmitterView' # 粒子效果
+
+end

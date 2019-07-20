@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59A677F78D86BE2716B94DDB /* libPods-跟我学英文.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAC918C12B1FC38BE833F7C /* libPods-跟我学英文.a */; };
+		6806DDFF21B4DB340032834A /* KJWordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6806DDF421B4DB330032834A /* KJWordButton.m */; };
+		6806DE0021B4DB340032834A /* KJWordsCheckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6806DDF621B4DB330032834A /* KJWordsCheckButton.m */; };
+		6806DE0121B4DB340032834A /* KJCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6806DDF921B4DB330032834A /* KJCodeView.m */; };
+		6806DE0321B4DB340032834A /* NSString+StringToWords.m in Sources */ = {isa = PBXBuildFile; fileRef = 6806DDFD21B4DB330032834A /* NSString+StringToWords.m */; };
+		6806DE0921B4EE230032834A /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6806DE0821B4EE230032834A /* NSString+Category.m */; };
+		6875D78121B6473D0001F44E /* KJLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875D77821B6473D0001F44E /* KJLoginVC.m */; };
+		6875D78221B6473D0001F44E /* KJForgetPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875D77921B6473D0001F44E /* KJForgetPasswordVC.m */; };
+		6875D78321B6473D0001F44E /* KJRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875D77A21B6473D0001F44E /* KJRegisterVC.m */; };
+		6875D78421B6473D0001F44E /* KJTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875D78021B6473D0001F44E /* KJTextFiled.m */; };
+		6875D78821B649E10001F44E /* InitializationUIMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875D78621B649E10001F44E /* InitializationUIMethod.m */; };
+		6875D7AD21B650770001F44E /* bg-sunny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6875D78B21B650760001F44E /* bg-sunny.jpg */; };
+		6875D7B021B650770001F44E /* bg-sunny-cloud-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D78F21B650760001F44E /* bg-sunny-cloud-2@2x.png */; };
+		6875D7B121B650770001F44E /* bg-sunny-cloud-2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D79021B650760001F44E /* bg-sunny-cloud-2@3x.png */; };
+		6875D7B321B650770001F44E /* forget@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D79321B650760001F44E /* forget@2x.png */; };
+		6875D7B421B650770001F44E /* forget@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D79421B650760001F44E /* forget@3x.png */; };
+		6875D7B521B650770001F44E /* bg-sunny-cloud-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D79621B650770001F44E /* bg-sunny-cloud-3@2x.png */; };
+		6875D7B621B650770001F44E /* bg-sunny-cloud-3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D79721B650770001F44E /* bg-sunny-cloud-3@3x.png */; };
+		6875D7B921B650770001F44E /* banner@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D79B21B650770001F44E /* banner@3x.png */; };
+		6875D7BA21B650770001F44E /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D79C21B650770001F44E /* banner@2x.png */; };
+		6875D7BB21B650770001F44E /* bg-sunny-cloud-1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D79E21B650770001F44E /* bg-sunny-cloud-1@3x.png */; };
+		6875D7BC21B650770001F44E /* bg-sunny-cloud-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D79F21B650770001F44E /* bg-sunny-cloud-1@2x.png */; };
+		6875D7BE21B650770001F44E /* register@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D7A221B650770001F44E /* register@3x.png */; };
+		6875D7BF21B650770001F44E /* register@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D7A321B650770001F44E /* register@2x.png */; };
+		6875D7C121B650770001F44E /* balloon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D7A621B650770001F44E /* balloon@2x.png */; };
+		6875D7C221B650770001F44E /* balloon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D7A721B650770001F44E /* balloon@3x.png */; };
+		6875D7C421B650770001F44E /* bg-sunny-cloud-4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D7AA21B650770001F44E /* bg-sunny-cloud-4@2x.png */; };
+		6875D7C521B650770001F44E /* bg-sunny-cloud-4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D7AB21B650770001F44E /* bg-sunny-cloud-4@3x.png */; };
+		6875D7CB21B651180001F44E /* login_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D7C821B651180001F44E /* login_back@2x.png */; };
+		6875D7CC21B651180001F44E /* login_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6875D7C921B651180001F44E /* login_back@3x.png */; };
+		6875D7D321B656EC0001F44E /* KJNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875D7CF21B656EC0001F44E /* KJNetManager.m */; };
+		6875D7D421B656EC0001F44E /* KJBaseNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875D7D221B656EC0001F44E /* KJBaseNetWorking.m */; };
+		6875D7D821B65E8F0001F44E /* KJUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875D7D721B65E8F0001F44E /* KJUserModel.m */; };
+		6875D7DC21B66B6F0001F44E /* KJHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875D7DB21B66B6F0001F44E /* KJHomeModel.m */; };
+		68B69C0F21B62B4000158B03 /* KJHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B69C0D21B62B4000158B03 /* KJHomeVC.m */; };
+		68B69C1021B62B4000158B03 /* KJHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68B69C0E21B62B4000158B03 /* KJHomeVC.xib */; };
+		68EE760621B4C3B300D1F776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EE760521B4C3B300D1F776 /* AppDelegate.m */; };
+		68EE760E21B4C3B300D1F776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68EE760D21B4C3B300D1F776 /* Assets.xcassets */; };
+		68EE761121B4C3B300D1F776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68EE760F21B4C3B300D1F776 /* LaunchScreen.storyboard */; };
+		68EE761421B4C3B300D1F776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EE761321B4C3B300D1F776 /* main.m */; };
+		68EE761D21B4CDAF00D1F776 /* KJStudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EE761B21B4CDAF00D1F776 /* KJStudyViewController.m */; };
+		68EE761E21B4CDAF00D1F776 /* KJStudyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68EE761C21B4CDAF00D1F776 /* KJStudyViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C14A324432F83A566F76884 /* Pods-跟我学英文.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-跟我学英文.release.xcconfig"; path = "Pods/Target Support Files/Pods-跟我学英文/Pods-跟我学英文.release.xcconfig"; sourceTree = "<group>"; };
+		3CAC918C12B1FC38BE833F7C /* libPods-跟我学英文.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-跟我学英文.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6806DDF421B4DB330032834A /* KJWordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJWordButton.m; sourceTree = "<group>"; };
+		6806DDF521B4DB330032834A /* KJWordsCheckButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJWordsCheckButton.h; sourceTree = "<group>"; };
+		6806DDF621B4DB330032834A /* KJWordsCheckButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJWordsCheckButton.m; sourceTree = "<group>"; };
+		6806DDF721B4DB330032834A /* KJWordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJWordButton.h; sourceTree = "<group>"; };
+		6806DDF921B4DB330032834A /* KJCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCodeView.m; sourceTree = "<group>"; };
+		6806DDFA21B4DB330032834A /* NSString+StringToWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringToWords.h"; sourceTree = "<group>"; };
+		6806DDFD21B4DB330032834A /* NSString+StringToWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringToWords.m"; sourceTree = "<group>"; };
+		6806DDFE21B4DB330032834A /* KJCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCodeView.h; sourceTree = "<group>"; };
+		6806DE0721B4EE230032834A /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		6806DE0821B4EE230032834A /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		6875D77821B6473D0001F44E /* KJLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJLoginVC.m; sourceTree = "<group>"; };
+		6875D77921B6473D0001F44E /* KJForgetPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJForgetPasswordVC.m; sourceTree = "<group>"; };
+		6875D77A21B6473D0001F44E /* KJRegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJRegisterVC.m; sourceTree = "<group>"; };
+		6875D77B21B6473D0001F44E /* KJLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJLoginVC.h; sourceTree = "<group>"; };
+		6875D77C21B6473D0001F44E /* KJForgetPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJForgetPasswordVC.h; sourceTree = "<group>"; };
+		6875D77D21B6473D0001F44E /* KJRegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJRegisterVC.h; sourceTree = "<group>"; };
+		6875D77F21B6473D0001F44E /* KJTextFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTextFiled.h; sourceTree = "<group>"; };
+		6875D78021B6473D0001F44E /* KJTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTextFiled.m; sourceTree = "<group>"; };
+		6875D78621B649E10001F44E /* InitializationUIMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitializationUIMethod.m; sourceTree = "<group>"; };
+		6875D78721B649E10001F44E /* InitializationUIMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitializationUIMethod.h; sourceTree = "<group>"; };
+		6875D78B21B650760001F44E /* bg-sunny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-sunny.jpg"; sourceTree = "<group>"; };
+		6875D78F21B650760001F44E /* bg-sunny-cloud-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-sunny-cloud-2@2x.png"; sourceTree = "<group>"; };
+		6875D79021B650760001F44E /* bg-sunny-cloud-2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-sunny-cloud-2@3x.png"; sourceTree = "<group>"; };
+		6875D79321B650760001F44E /* forget@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forget@2x.png"; sourceTree = "<group>"; };
+		6875D79421B650760001F44E /* forget@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forget@3x.png"; sourceTree = "<group>"; };
+		6875D79621B650770001F44E /* bg-sunny-cloud-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-sunny-cloud-3@2x.png"; sourceTree = "<group>"; };
+		6875D79721B650770001F44E /* bg-sunny-cloud-3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-sunny-cloud-3@3x.png"; sourceTree = "<group>"; };
+		6875D79B21B650770001F44E /* banner@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@3x.png"; sourceTree = "<group>"; };
+		6875D79C21B650770001F44E /* banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@2x.png"; sourceTree = "<group>"; };
+		6875D79E21B650770001F44E /* bg-sunny-cloud-1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-sunny-cloud-1@3x.png"; sourceTree = "<group>"; };
+		6875D79F21B650770001F44E /* bg-sunny-cloud-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-sunny-cloud-1@2x.png"; sourceTree = "<group>"; };
+		6875D7A221B650770001F44E /* register@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register@3x.png"; sourceTree = "<group>"; };
+		6875D7A321B650770001F44E /* register@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register@2x.png"; sourceTree = "<group>"; };
+		6875D7A621B650770001F44E /* balloon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon@2x.png"; sourceTree = "<group>"; };
+		6875D7A721B650770001F44E /* balloon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon@3x.png"; sourceTree = "<group>"; };
+		6875D7AA21B650770001F44E /* bg-sunny-cloud-4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-sunny-cloud-4@2x.png"; sourceTree = "<group>"; };
+		6875D7AB21B650770001F44E /* bg-sunny-cloud-4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-sunny-cloud-4@3x.png"; sourceTree = "<group>"; };
+		6875D7C821B651180001F44E /* login_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_back@2x.png"; sourceTree = "<group>"; };
+		6875D7C921B651180001F44E /* login_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_back@3x.png"; sourceTree = "<group>"; };
+		6875D7CF21B656EC0001F44E /* KJNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJNetManager.m; sourceTree = "<group>"; };
+		6875D7D021B656EC0001F44E /* KJBaseNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJBaseNetWorking.h; sourceTree = "<group>"; };
+		6875D7D121B656EC0001F44E /* KJNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJNetManager.h; sourceTree = "<group>"; };
+		6875D7D221B656EC0001F44E /* KJBaseNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJBaseNetWorking.m; sourceTree = "<group>"; };
+		6875D7D621B65E8F0001F44E /* KJUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJUserModel.h; sourceTree = "<group>"; };
+		6875D7D721B65E8F0001F44E /* KJUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJUserModel.m; sourceTree = "<group>"; };
+		6875D7DA21B66B6F0001F44E /* KJHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJHomeModel.h; sourceTree = "<group>"; };
+		6875D7DB21B66B6F0001F44E /* KJHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJHomeModel.m; sourceTree = "<group>"; };
+		687636AD21B4D358000B0B88 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		68B69C0C21B62B4000158B03 /* KJHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJHomeVC.h; sourceTree = "<group>"; };
+		68B69C0D21B62B4000158B03 /* KJHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJHomeVC.m; sourceTree = "<group>"; };
+		68B69C0E21B62B4000158B03 /* KJHomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KJHomeVC.xib; sourceTree = "<group>"; };
+		68EE760121B4C3B200D1F776 /* 跟我学英文.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "跟我学英文.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68EE760421B4C3B300D1F776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68EE760521B4C3B300D1F776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68EE760D21B4C3B300D1F776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68EE761021B4C3B300D1F776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68EE761221B4C3B300D1F776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68EE761321B4C3B300D1F776 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68EE761A21B4CDAF00D1F776 /* KJStudyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJStudyViewController.h; sourceTree = "<group>"; };
+		68EE761B21B4CDAF00D1F776 /* KJStudyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJStudyViewController.m; sourceTree = "<group>"; };
+		68EE761C21B4CDAF00D1F776 /* KJStudyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KJStudyViewController.xib; sourceTree = "<group>"; };
+		9514CAB1425F02FAB1E4B9B6 /* Pods-跟我学英文.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-跟我学英文.debug.xcconfig"; path = "Pods/Target Support Files/Pods-跟我学英文/Pods-跟我学英文.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68EE75FE21B4C3B200D1F776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A677F78D86BE2716B94DDB /* libPods-跟我学英文.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6806DDF821B4DB330032834A /* CodeView */ = {
+			isa = PBXGroup;
+			children = (
+				6806DDFE21B4DB330032834A /* KJCodeView.h */,
+				6806DDF921B4DB330032834A /* KJCodeView.m */,
+				6806DE0721B4EE230032834A /* NSString+Category.h */,
+				6806DE0821B4EE230032834A /* NSString+Category.m */,
+				6806DDFA21B4DB330032834A /* NSString+StringToWords.h */,
+				6806DDFD21B4DB330032834A /* NSString+StringToWords.m */,
+			);
+			path = CodeView;
+			sourceTree = "<group>";
+		};
+		6806DE0421B4DB3C0032834A /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				6806DE0621B4DB4E0032834A /* View */,
+				6806DE0521B4DB430032834A /* ViewController */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		6806DE0521B4DB430032834A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				68EE761A21B4CDAF00D1F776 /* KJStudyViewController.h */,
+				68EE761B21B4CDAF00D1F776 /* KJStudyViewController.m */,
+				68EE761C21B4CDAF00D1F776 /* KJStudyViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6806DE0621B4DB4E0032834A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6806DDF821B4DB330032834A /* CodeView */,
+				6806DDF721B4DB330032834A /* KJWordButton.h */,
+				6806DDF421B4DB330032834A /* KJWordButton.m */,
+				6806DDF521B4DB330032834A /* KJWordsCheckButton.h */,
+				6806DDF621B4DB330032834A /* KJWordsCheckButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6806DE0A21B50FD50032834A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6875D7D921B66B5D0001F44E /* Modl */,
+				6806DE0C21B50FE50032834A /* View */,
+				6806DE0B21B50FDC0032834A /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6806DE0B21B50FDC0032834A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				68B69C0C21B62B4000158B03 /* KJHomeVC.h */,
+				68B69C0D21B62B4000158B03 /* KJHomeVC.m */,
+				68B69C0E21B62B4000158B03 /* KJHomeVC.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6806DE0C21B50FE50032834A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6875D77621B6473D0001F44E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6875D78921B650610001F44E /* Res */,
+				6875D7D521B65E790001F44E /* Model */,
+				6875D77E21B6473D0001F44E /* View */,
+				6875D77721B6473D0001F44E /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6875D77721B6473D0001F44E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6875D77B21B6473D0001F44E /* KJLoginVC.h */,
+				6875D77821B6473D0001F44E /* KJLoginVC.m */,
+				6875D77D21B6473D0001F44E /* KJRegisterVC.h */,
+				6875D77A21B6473D0001F44E /* KJRegisterVC.m */,
+				6875D77C21B6473D0001F44E /* KJForgetPasswordVC.h */,
+				6875D77921B6473D0001F44E /* KJForgetPasswordVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6875D77E21B6473D0001F44E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6875D77F21B6473D0001F44E /* KJTextFiled.h */,
+				6875D78021B6473D0001F44E /* KJTextFiled.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6875D78521B649D30001F44E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6875D78721B649E10001F44E /* InitializationUIMethod.h */,
+				6875D78621B649E10001F44E /* InitializationUIMethod.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		6875D78921B650610001F44E /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				6875D7C821B651180001F44E /* login_back@2x.png */,
+				6875D7C921B651180001F44E /* login_back@3x.png */,
+				6875D7A621B650770001F44E /* balloon@2x.png */,
+				6875D7A721B650770001F44E /* balloon@3x.png */,
+				6875D79B21B650770001F44E /* banner@3x.png */,
+				6875D79C21B650770001F44E /* banner@2x.png */,
+				6875D79E21B650770001F44E /* bg-sunny-cloud-1@3x.png */,
+				6875D79F21B650770001F44E /* bg-sunny-cloud-1@2x.png */,
+				6875D78F21B650760001F44E /* bg-sunny-cloud-2@2x.png */,
+				6875D79021B650760001F44E /* bg-sunny-cloud-2@3x.png */,
+				6875D79621B650770001F44E /* bg-sunny-cloud-3@2x.png */,
+				6875D79721B650770001F44E /* bg-sunny-cloud-3@3x.png */,
+				6875D7AA21B650770001F44E /* bg-sunny-cloud-4@2x.png */,
+				6875D7AB21B650770001F44E /* bg-sunny-cloud-4@3x.png */,
+				6875D78B21B650760001F44E /* bg-sunny.jpg */,
+				6875D79321B650760001F44E /* forget@2x.png */,
+				6875D79421B650760001F44E /* forget@3x.png */,
+				6875D7A221B650770001F44E /* register@3x.png */,
+				6875D7A321B650770001F44E /* register@2x.png */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		6875D7CE21B6569E0001F44E /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				6875D7D021B656EC0001F44E /* KJBaseNetWorking.h */,
+				6875D7D221B656EC0001F44E /* KJBaseNetWorking.m */,
+				6875D7D121B656EC0001F44E /* KJNetManager.h */,
+				6875D7CF21B656EC0001F44E /* KJNetManager.m */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		6875D7D521B65E790001F44E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6875D7D621B65E8F0001F44E /* KJUserModel.h */,
+				6875D7D721B65E8F0001F44E /* KJUserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6875D7D921B66B5D0001F44E /* Modl */ = {
+			isa = PBXGroup;
+			children = (
+				6875D7DA21B66B6F0001F44E /* KJHomeModel.h */,
+				6875D7DB21B66B6F0001F44E /* KJHomeModel.m */,
+			);
+			path = Modl;
+			sourceTree = "<group>";
+		};
+		68EE75F821B4C3B200D1F776 = {
+			isa = PBXGroup;
+			children = (
+				68EE760321B4C3B200D1F776 /* abc */,
+				68EE760221B4C3B200D1F776 /* Products */,
+				6DBCF3D14422D25B29979743 /* Pods */,
+				B5FF059A7BCD96A835AB4CC4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		68EE760221B4C3B200D1F776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68EE760121B4C3B200D1F776 /* 跟我学英文.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68EE760321B4C3B200D1F776 /* abc */ = {
+			isa = PBXGroup;
+			children = (
+				6875D7CE21B6569E0001F44E /* Net */,
+				6875D78521B649D30001F44E /* Tool */,
+				6875D77621B6473D0001F44E /* Login */,
+				6806DE0A21B50FD50032834A /* Home */,
+				6806DE0421B4DB3C0032834A /* Study */,
+				68EE760421B4C3B300D1F776 /* AppDelegate.h */,
+				68EE760521B4C3B300D1F776 /* AppDelegate.m */,
+				68EE760D21B4C3B300D1F776 /* Assets.xcassets */,
+				68EE760F21B4C3B300D1F776 /* LaunchScreen.storyboard */,
+				687636AD21B4D358000B0B88 /* PrefixHeader.pch */,
+				68EE761221B4C3B300D1F776 /* Info.plist */,
+				68EE761321B4C3B300D1F776 /* main.m */,
+			);
+			path = abc;
+			sourceTree = "<group>";
+		};
+		6DBCF3D14422D25B29979743 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9514CAB1425F02FAB1E4B9B6 /* Pods-跟我学英文.debug.xcconfig */,
+				3C14A324432F83A566F76884 /* Pods-跟我学英文.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5FF059A7BCD96A835AB4CC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CAC918C12B1FC38BE833F7C /* libPods-跟我学英文.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68EE760021B4C3B200D1F776 /* 跟我学英文 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68EE761721B4C3B300D1F776 /* Build configuration list for PBXNativeTarget "跟我学英文" */;
+			buildPhases = (
+				728F8B4F10EE88584A815471 /* [CP] Check Pods Manifest.lock */,
+				68EE75FD21B4C3B200D1F776 /* Sources */,
+				68EE75FE21B4C3B200D1F776 /* Frameworks */,
+				68EE75FF21B4C3B200D1F776 /* Resources */,
+				70A2C16BD287E8B0EF42AFC9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "跟我学英文";
+			productName = "跟我学英文";
+			productReference = 68EE760121B4C3B200D1F776 /* 跟我学英文.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68EE75F921B4C3B200D1F776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "杨科军";
+				TargetAttributes = {
+					68EE760021B4C3B200D1F776 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 68EE75FC21B4C3B200D1F776 /* Build configuration list for PBXProject "跟我学英文" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68EE75F821B4C3B200D1F776;
+			productRefGroup = 68EE760221B4C3B200D1F776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68EE760021B4C3B200D1F776 /* 跟我学英文 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68EE75FF21B4C3B200D1F776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6875D7C421B650770001F44E /* bg-sunny-cloud-4@2x.png in Resources */,
+				68EE761121B4C3B300D1F776 /* LaunchScreen.storyboard in Resources */,
+				6875D7B921B650770001F44E /* banner@3x.png in Resources */,
+				6875D7C121B650770001F44E /* balloon@2x.png in Resources */,
+				6875D7CB21B651180001F44E /* login_back@2x.png in Resources */,
+				6875D7BA21B650770001F44E /* banner@2x.png in Resources */,
+				6875D7B321B650770001F44E /* forget@2x.png in Resources */,
+				6875D7BE21B650770001F44E /* register@3x.png in Resources */,
+				6875D7B621B650770001F44E /* bg-sunny-cloud-3@3x.png in Resources */,
+				6875D7BC21B650770001F44E /* bg-sunny-cloud-1@2x.png in Resources */,
+				6875D7B421B650770001F44E /* forget@3x.png in Resources */,
+				68EE760E21B4C3B300D1F776 /* Assets.xcassets in Resources */,
+				6875D7B021B650770001F44E /* bg-sunny-cloud-2@2x.png in Resources */,
+				6875D7C521B650770001F44E /* bg-sunny-cloud-4@3x.png in Resources */,
+				6875D7B521B650770001F44E /* bg-sunny-cloud-3@2x.png in Resources */,
+				6875D7AD21B650770001F44E /* bg-sunny.jpg in Resources */,
+				6875D7B121B650770001F44E /* bg-sunny-cloud-2@3x.png in Resources */,
+				68B69C1021B62B4000158B03 /* KJHomeVC.xib in Resources */,
+				6875D7CC21B651180001F44E /* login_back@3x.png in Resources */,
+				68EE761E21B4CDAF00D1F776 /* KJStudyViewController.xib in Resources */,
+				6875D7BB21B650770001F44E /* bg-sunny-cloud-1@3x.png in Resources */,
+				6875D7BF21B650770001F44E /* register@2x.png in Resources */,
+				6875D7C221B650770001F44E /* balloon@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70A2C16BD287E8B0EF42AFC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-跟我学英文/Pods-跟我学英文-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/KJEmitterView/KJEmitterView/Classes/EmitterView/KJEmitter.bundle",
+				"${PODS_ROOT}/KJEmitterView/KJEmitterView/Classes/ErrorView/KJErrorView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KJEmitter.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KJErrorView.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-跟我学英文/Pods-跟我学英文-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		728F8B4F10EE88584A815471 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-跟我学英文-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68EE75FD21B4C3B200D1F776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6875D7DC21B66B6F0001F44E /* KJHomeModel.m in Sources */,
+				6875D7D321B656EC0001F44E /* KJNetManager.m in Sources */,
+				6806DE0021B4DB340032834A /* KJWordsCheckButton.m in Sources */,
+				6806DDFF21B4DB340032834A /* KJWordButton.m in Sources */,
+				6806DE0321B4DB340032834A /* NSString+StringToWords.m in Sources */,
+				6806DE0121B4DB340032834A /* KJCodeView.m in Sources */,
+				6875D78321B6473D0001F44E /* KJRegisterVC.m in Sources */,
+				6806DE0921B4EE230032834A /* NSString+Category.m in Sources */,
+				68B69C0F21B62B4000158B03 /* KJHomeVC.m in Sources */,
+				6875D7D821B65E8F0001F44E /* KJUserModel.m in Sources */,
+				6875D78421B6473D0001F44E /* KJTextFiled.m in Sources */,
+				6875D7D421B656EC0001F44E /* KJBaseNetWorking.m in Sources */,
+				6875D78221B6473D0001F44E /* KJForgetPasswordVC.m in Sources */,
+				68EE761421B4C3B300D1F776 /* main.m in Sources */,
+				68EE760621B4C3B300D1F776 /* AppDelegate.m in Sources */,
+				6875D78121B6473D0001F44E /* KJLoginVC.m in Sources */,
+				68EE761D21B4CDAF00D1F776 /* KJStudyViewController.m in Sources */,
+				6875D78821B649E10001F44E /* InitializationUIMethod.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68EE760F21B4C3B300D1F776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68EE761021B4C3B300D1F776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68EE761521B4C3B300D1F776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68EE761621B4C3B300D1F776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68EE761821B4C3B300D1F776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9514CAB1425F02FAB1E4B9B6 /* Pods-跟我学英文.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VH48VHTX9R;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/abc/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/abc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangkejun.gen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		68EE761921B4C3B300D1F776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C14A324432F83A566F76884 /* Pods-跟我学英文.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VH48VHTX9R;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/abc/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/abc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangkejun.gen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68EE75FC21B4C3B200D1F776 /* Build configuration list for PBXProject "跟我学英文" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EE761521B4C3B300D1F776 /* Debug */,
+				68EE761621B4C3B300D1F776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68EE761721B4C3B300D1F776 /* Build configuration list for PBXNativeTarget "跟我学英文" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EE761821B4C3B300D1F776 /* Debug */,
+				68EE761921B4C3B300D1F776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68EE75F921B4C3B200D1F776 /* Project object */;
+}

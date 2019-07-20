@@ -1,0 +1,54 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - IQKeyboardManager (6.2.0)
+  - KJEmitterView (2.2.5):
+    - KJEmitterView/Classes (= 2.2.5)
+    - KJEmitterView/Function (= 2.2.5)
+    - KJEmitterView/KeJun (= 2.2.5)
+  - KJEmitterView/Classes (2.2.5)
+  - KJEmitterView/Function (2.2.5)
+  - KJEmitterView/KeJun (2.2.5)
+  - Masonry (1.1.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking
+  - IQKeyboardManager
+  - KJEmitterView
+  - Masonry
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - IQKeyboardManager
+    - KJEmitterView
+    - Masonry
+    - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  KJEmitterView: 5bf9e197d4f16a18f3b2ae355ed756b585877d63
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 25bf6ebc24a7ea9629344d62fa642885aa585507
+
+COCOAPODS: 1.5.3

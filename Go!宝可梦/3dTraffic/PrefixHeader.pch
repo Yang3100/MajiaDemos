@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  3dTraffic
+//
+//  Created by 杨科军 on 2018/11/15.
+//  Copyright © 2018 杨科军. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <POP.h>
+
+#import "UIViewController+KJHiddenNavigation.h"  // 隐藏navigation
+
+#define MainSize [UIScreen mainScreen].bounds.size
+
+#endif /* PrefixHeader_pch */

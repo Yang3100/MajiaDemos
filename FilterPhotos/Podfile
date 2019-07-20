@@ -1,0 +1,9 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FilterPhotos' do
+
+inhibit_all_warnings!   # 禁止所有警告
+#pod 'WMPageController'  # 分页控制器
+
+end

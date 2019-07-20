@@ -1,0 +1,76 @@
+//
+//  PrefixHeader.pch
+//  YunFengSi
+//
+//  Created by 杨科军 on 2018/9/17.
+//  Copyright © 2018年 杨科军. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <objc/runtime.h>  // Objective-C是基于C加入了面向对象特性和消息转发机制的动态语言
+
+#import <AFNetworking.h>  // 网络相关
+#import <UIKit+AFNetworking.h>
+#import <YYKit.h>         //
+#import <Masonry.h>       // 自动布局,约束相关
+#import <IQKeyboardManager.h> // 弹出键盘相关
+#import <MJRefresh.h>         // 刷新
+#import <MJExtension.h>
+
+
+// Foundation
+#import <SDTheme.h>         // 主题相关
+#import <FMDB.h>            // 本地数据库
+#import "GDataBase.h"       // sqlite数据库
+
+// UIKit
+#import <SDImageCache.h>    // 网络加载图片相关
+#import <UIImageView+WebCache.h>
+//#import <SDCycleScrollView.h>  // 滚动banner
+#import <MBProgressHUD.h>      // 指示器
+#import "MBProgressHUD+PX.h"
+#import <CHTCollectionViewWaterfallLayout.h>   // 瀑布流
+#import <UICollectionViewLeftAlignedLayout.h>  // UICollectionView左对齐布局
+#import <UITableView+FDTemplateLayoutCell.h>   // 自适应 缓存tableViewCell的高度
+
+//#import <UAProgressView.h>     // 环形进度条
+//#import <iCarousel.h>          // 轮播库
+
+#import "KJBaseTableViewCell.h"        // 底层cell
+#import "KJBaseView.h"                 // 底层view
+#import "KJBaseViewController.h"       // 底层ViewController
+#import "KJBaseNavigationController.h" // 底层NavigationController
+#import "KJBaseTableViewController.h"  // 底层TableViewController
+#import "KJBaseCollectionViewController.h" // 底层CollectionViewController
+
+#import "InitializationUIMethod.h" // 创建常用UI子类，避免重复编码，造成大量创建代码冗余
+//#import "KJNetManager.h"           // 网络请求接口类
+#import "KJTools.h"        // 工具类
+#import "KJEncryptTool.h"  // 加密解密
+#import "KJAlertView.h"    // 提示框
+#import "KJTencentUploadTools.h"  // 上传工具
+#import "KJPhotoChangeManager.h"  // 打开相册
+//#import "JHChartHeader.h"  // 图表工具库，实现了折线图、柱状图、饼状图、环形图和表格样式的图表功能
+
+// Category
+#import "UIView+KJ.h"    // UIView扩展
+#import "UIImage+KJ.h"   // UIImage扩展
+#import "UITextView+KJ.h"// UITextView扩展
+#import "NSString+KJ.h"  // 字符串扩展
+#import "UIButton+EnlargeEdge.h"   // 关于button的扩展
+#import "UINavigationBar+Awesome.h"// 设置navigation的背景颜色
+#import "UIBarButtonItem+FYExtension.h" // 关于navigationBarItem
+#import "UINavigationController+FDFullscreenPopGesture.h" //
+
+#import "Macros.h"                 // 全局宏
+#import "RequestHeader.h"          // 网络请求头文件
+#import "HNRequestManager.h"       // 网络请求
+
+#endif /* PrefixHeader_pch */

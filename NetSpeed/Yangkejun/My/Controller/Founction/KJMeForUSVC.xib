@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KJMeForUSVC">
+            <connections>
+                <outlet property="appName" destination="7P6-MQ-veA" id="N5U-SD-UFc"/>
+                <outlet property="appVersion" destination="9xw-bs-4L5" id="I3W-Ln-zSH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AppName" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7P6-MQ-veA">
+                    <rect key="frame" x="151.5" y="318.5" width="72" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="v65-hZ-z7e"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Versions：1.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xw-bs-4L5">
+                    <rect key="frame" x="136" y="388.5" width="103" height="27.5"/>
+                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGOstore_1024pt" translatesAutoresizingMaskIntoConstraints="NO" id="3sj-E8-tBK">
+                    <rect key="frame" x="123.5" y="122" width="128" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="6OY-fV-T1M"/>
+                        <constraint firstAttribute="width" constant="128" id="aQl-Qk-ITs"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="393103982@qq.com" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="545-fC-WKA">
+                    <rect key="frame" x="109.5" y="589.5" width="156.5" height="27.5"/>
+                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quq-EM-gus">
+                    <rect key="frame" x="133" y="552" width="109" height="27.5"/>
+                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="3sj-E8-tBK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8C5-fX-8W3"/>
+                <constraint firstItem="9xw-bs-4L5" firstAttribute="top" secondItem="7P6-MQ-veA" secondAttribute="bottom" constant="40" id="8gZ-4p-0ti"/>
+                <constraint firstItem="9xw-bs-4L5" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="EqG-p7-0GA"/>
+                <constraint firstItem="3sj-E8-tBK" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="102" id="MGn-YY-XIO"/>
+                <constraint firstItem="545-fC-WKA" firstAttribute="top" secondItem="quq-EM-gus" secondAttribute="bottom" constant="10" id="X69-aH-50k"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="545-fC-WKA" secondAttribute="bottom" constant="50" id="YyW-wI-ro3"/>
+                <constraint firstItem="7P6-MQ-veA" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="dSe-Q3-Qn7"/>
+                <constraint firstItem="545-fC-WKA" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eeJ-QY-Ibs"/>
+                <constraint firstItem="quq-EM-gus" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gkc-OG-ym2"/>
+                <constraint firstItem="7P6-MQ-veA" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="x7T-HX-ymg"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="130.40000000000001" y="122.78860569715144"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LOGOstore_1024pt" width="1024" height="1024"/>
+    </resources>
+</document>

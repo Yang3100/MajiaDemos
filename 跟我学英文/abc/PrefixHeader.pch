@@ -1,0 +1,66 @@
+//
+//  PrefixHeader.pch
+//  跟我学英文
+//
+//  Created by 杨科军 on 2018/12/3.
+//  Copyright © 2018 杨科军. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <KJHeader.h>
+#import <AFNetworking.h>  // 网络相关
+#import <UIKit+AFNetworking.h>
+#import <YYKit.h>         //
+#import <Masonry.h>       // 自动布局,约束相关
+#import <IQKeyboardManager.h> // 弹出键盘相关
+
+#import "InitializationUIMethod.h" // 创建常用UI子类，避免重复编码，造成大量创建代码冗余
+
+#import "KJNetManager.h"
+#import "KJUserModel.h"
+
+#pragma mark *******    屏幕的宽高   *********/
+// 屏幕总尺寸
+#define SCREEN_WIDTH        [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT       [[UIScreen mainScreen] bounds].size.height
+////rect
+//#define kScreenWidth    [UIScreen mainScreen].bounds.size.width
+//#define kScreenHeight   [UIScreen mainScreen].bounds.size.height
+// 等比例缩放系数
+#define SCREEN_SCALE  ((SCREEN_WIDTH > 414)?(SCREEN_HEIGHT/375.0): (SCREEN_WIDTH/375.0))
+#define Handle(x)    ((x)*SCREEN_SCALE)
+
+#define kSpace 5
+#define kLineWidth (self.frame.size.width - lineNum * 2 * kSpace)/lineNum
+#define kLineHeight 2
+
+#define kBaseLineNum 15.0
+
+#pragma mark *******    颜色   *********/
+#define UIColorFromHEXA(hex,a)   [UIColor colorWithRed:((hex&0xFF0000)>>16)/255.0f green:((hex&0xFF00)>>8)/255.0f blue:(hex&0xFF)/255.0f alpha:a]
+#define UIColorFromRGBA(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+#define UIColorFromRGB(r,g,b)   [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define UIColorHexFromRGB(hex)  UIColorFromHEXA(hex,1.0)
+
+#define MainColor(a)          UIColorFromHEXA(0x1ebff0,a)   // app 主色调
+#define BtnUnEnableBgColor    UIColorFromHEXA(0xbbbbbb,1.0) // 按钮不可点击状态
+#define BtnBgColor            UIColorFromHEXA(0xFFD308,1.0) // 按钮可点击状态
+#define DefaultTitleColor     UIColorFromHEXA(0x343434,1.0) // 字体颜色
+#define DefaultBackgroudColor UIColorFromHEXA(0xf9f6f6,1.0) // 视图里面的背景颜色
+#define DefaultLineColor      UIColorFromHEXA(0x000000,0.5) // 边框线的颜色
+
+#pragma mark *******    图片资源相关   *********
+#define GetImage(imageName)  [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
+
+#pragma mark *******    系统默认字体设置和自选字体设置   *********/
+#define SystemFontSize(fontsize)[UIFont systemFontOfSize:(fontsize)]
+
+#pragma mark *******    需要存入UserDefaults相关   *********
+#define User_ID  [[NSUserDefaults standardUserDefaults] valueForKey:@"userid"]
+
+#endif /* PrefixHeader_pch */

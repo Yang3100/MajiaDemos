@@ -1,0 +1,6 @@
+module Pods______ {
+  umbrella header "Pods-涂鸦填填乐-umbrella.h"
+
+  export *
+  module * { export * }
+}

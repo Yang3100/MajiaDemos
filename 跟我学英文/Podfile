@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+inhibit_all_warnings!  #禁止所有警告
+target '跟我学英文' do
+
+pod 'KJEmitterView'
+pod 'YYKit'   # YYKit
+#pod 'YYModel'
+pod 'AFNetworking' #网络框架
+pod 'Masonry'  #自动布局
+pod 'IQKeyboardManager'  #键盘管理
+
+end

@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68A70AEC219F3E4800883FB1 /* KJFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A70AEA219F3E4800883FB1 /* KJFilterVC.m */; };
+		68A70AED219F3E4800883FB1 /* KJFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A70AEB219F3E4800883FB1 /* KJFilterVC.xib */; };
+		68B8CC83219C13EA003B30FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B8CC82219C13EA003B30FC /* AppDelegate.m */; };
+		68B8CC8B219C13EC003B30FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B8CC8A219C13EC003B30FC /* Assets.xcassets */; };
+		68B8CC8E219C13EC003B30FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B8CC8C219C13EC003B30FC /* LaunchScreen.storyboard */; };
+		68B8CC91219C13EC003B30FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B8CC90219C13EC003B30FC /* main.m */; };
+		68B8CC99219C1420003B30FC /* KJFilterTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B8CC98219C1420003B30FC /* KJFilterTools.m */; };
+		68F7C410219FB792008E5CC2 /* KJWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F7C40F219FB792008E5CC2 /* KJWaveView.m */; };
+		68F7C42E21A00953008E5CC2 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F7C41E21A00953008E5CC2 /* WMPageController.m */; };
+		68F7C43121A00953008E5CC2 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F7C42721A00953008E5CC2 /* WMMenuItem.m */; };
+		68F7C43321A00953008E5CC2 /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F7C42A21A00953008E5CC2 /* WMMenuView.m */; };
+		68F7C43721A009B2008E5CC2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F7C43521A009B2008E5CC2 /* HomeViewController.m */; };
+		68F7C43C21A00B5B008E5CC2 /* WMFooldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F7C43821A00B5A008E5CC2 /* WMFooldView.m */; };
+		68F7C43D21A00B5B008E5CC2 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F7C43A21A00B5A008E5CC2 /* WMProgressView.m */; };
+		68F7C45D21A03360008E5CC2 /* ClipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F7C44221A03360008E5CC2 /* ClipViewController.m */; };
+		68F7C45E21A03360008E5CC2 /* KJCameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F7C44321A03360008E5CC2 /* KJCameraVC.m */; };
+		68F7C45F21A03360008E5CC2 /* cameraPhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C44621A03360008E5CC2 /* cameraPhoto@2x.png */; };
+		68F7C46021A03360008E5CC2 /* openFlish@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C44721A03360008E5CC2 /* openFlish@3x.png */; };
+		68F7C46121A03360008E5CC2 /* cancleCamera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C44821A03360008E5CC2 /* cancleCamera@3x.png */; };
+		68F7C46221A03360008E5CC2 /* canclePhoto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C44921A03360008E5CC2 /* canclePhoto@3x.png */; };
+		68F7C46321A03360008E5CC2 /* takePhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C44A21A03360008E5CC2 /* takePhoto@2x.png */; };
+		68F7C46421A03360008E5CC2 /* sureCamera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C44B21A03360008E5CC2 /* sureCamera@2x.png */; };
+		68F7C46521A03360008E5CC2 /* sureCamera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C44C21A03360008E5CC2 /* sureCamera@3x.png */; };
+		68F7C46621A03360008E5CC2 /* takePhoto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C44D21A03360008E5CC2 /* takePhoto@3x.png */; };
+		68F7C46721A03360008E5CC2 /* canclePhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C44E21A03360008E5CC2 /* canclePhoto@2x.png */; };
+		68F7C46821A03360008E5CC2 /* cancleCamera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C44F21A03360008E5CC2 /* cancleCamera@2x.png */; };
+		68F7C46921A03360008E5CC2 /* openFlish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C45021A03360008E5CC2 /* openFlish@2x.png */; };
+		68F7C46A21A03360008E5CC2 /* cameraPhoto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C45121A03360008E5CC2 /* cameraPhoto@3x.png */; };
+		68F7C46B21A03360008E5CC2 /* clipPhoto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C45221A03360008E5CC2 /* clipPhoto@3x.png */; };
+		68F7C46C21A03360008E5CC2 /* clipPhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C45321A03360008E5CC2 /* clipPhoto@2x.png */; };
+		68F7C46D21A03360008E5CC2 /* closeFlish@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C45421A03360008E5CC2 /* closeFlish@3x.png */; };
+		68F7C46E21A03360008E5CC2 /* closeFlish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C45521A03360008E5CC2 /* closeFlish@2x.png */; };
+		68F7C46F21A03360008E5CC2 /* surePhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C45621A03360008E5CC2 /* surePhoto@2x.png */; };
+		68F7C47021A03360008E5CC2 /* backPhoto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C45721A03360008E5CC2 /* backPhoto@3x.png */; };
+		68F7C47121A03360008E5CC2 /* backPhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C45821A03360008E5CC2 /* backPhoto@2x.png */; };
+		68F7C47221A03360008E5CC2 /* surePhoto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C45921A03360008E5CC2 /* surePhoto@3x.png */; };
+		68F7C47321A03360008E5CC2 /* TKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F7C45C21A03360008E5CC2 /* TKImageView.m */; };
+		68F7C47B21A04A5C008E5CC2 /* KJHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F7C47921A04A5C008E5CC2 /* KJHistoryVC.m */; };
+		68F7C47C21A04A5C008E5CC2 /* KJHistoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68F7C47A21A04A5C008E5CC2 /* KJHistoryVC.xib */; };
+		9392124B85AC95E8A116DFE4 /* libPods-FilterPhotos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A942997AB8A1A1BF2FD3CD2D /* libPods-FilterPhotos.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37DF11FBD725E4CE7B76002E /* Pods-FilterPhotos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilterPhotos.release.xcconfig"; path = "Pods/Target Support Files/Pods-FilterPhotos/Pods-FilterPhotos.release.xcconfig"; sourceTree = "<group>"; };
+		68A70AE9219F3E4800883FB1 /* KJFilterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJFilterVC.h; sourceTree = "<group>"; };
+		68A70AEA219F3E4800883FB1 /* KJFilterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJFilterVC.m; sourceTree = "<group>"; };
+		68A70AEB219F3E4800883FB1 /* KJFilterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KJFilterVC.xib; sourceTree = "<group>"; };
+		68B8CC7E219C13EA003B30FC /* FilterPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B8CC81219C13EA003B30FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68B8CC82219C13EA003B30FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68B8CC8A219C13EC003B30FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68B8CC8D219C13EC003B30FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68B8CC8F219C13EC003B30FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B8CC90219C13EC003B30FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68B8CC97219C1420003B30FC /* KJFilterTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJFilterTools.h; sourceTree = "<group>"; };
+		68B8CC98219C1420003B30FC /* KJFilterTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJFilterTools.m; sourceTree = "<group>"; };
+		68F7C40E219FB792008E5CC2 /* KJWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJWaveView.h; sourceTree = "<group>"; };
+		68F7C40F219FB792008E5CC2 /* KJWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJWaveView.m; sourceTree = "<group>"; };
+		68F7C41E21A00953008E5CC2 /* WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPageController.m; sourceTree = "<group>"; };
+		68F7C41F21A00953008E5CC2 /* WMPageConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageConst.h; sourceTree = "<group>"; };
+		68F7C42321A00953008E5CC2 /* WMMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuItem.h; sourceTree = "<group>"; };
+		68F7C42421A00953008E5CC2 /* WMMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuView.h; sourceTree = "<group>"; };
+		68F7C42721A00953008E5CC2 /* WMMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuItem.m; sourceTree = "<group>"; };
+		68F7C42A21A00953008E5CC2 /* WMMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuView.m; sourceTree = "<group>"; };
+		68F7C42D21A00953008E5CC2 /* WMPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageController.h; sourceTree = "<group>"; };
+		68F7C43521A009B2008E5CC2 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		68F7C43621A009B2008E5CC2 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		68F7C43821A00B5A008E5CC2 /* WMFooldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMFooldView.m; sourceTree = "<group>"; };
+		68F7C43921A00B5A008E5CC2 /* WMFooldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMFooldView.h; sourceTree = "<group>"; };
+		68F7C43A21A00B5A008E5CC2 /* WMProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMProgressView.m; sourceTree = "<group>"; };
+		68F7C43B21A00B5A008E5CC2 /* WMProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMProgressView.h; sourceTree = "<group>"; };
+		68F7C44221A03360008E5CC2 /* ClipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipViewController.m; sourceTree = "<group>"; };
+		68F7C44321A03360008E5CC2 /* KJCameraVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCameraVC.m; sourceTree = "<group>"; };
+		68F7C44421A03360008E5CC2 /* TKImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKImageView.h; sourceTree = "<group>"; };
+		68F7C44621A03360008E5CC2 /* cameraPhoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cameraPhoto@2x.png"; sourceTree = "<group>"; };
+		68F7C44721A03360008E5CC2 /* openFlish@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "openFlish@3x.png"; sourceTree = "<group>"; };
+		68F7C44821A03360008E5CC2 /* cancleCamera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancleCamera@3x.png"; sourceTree = "<group>"; };
+		68F7C44921A03360008E5CC2 /* canclePhoto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "canclePhoto@3x.png"; sourceTree = "<group>"; };
+		68F7C44A21A03360008E5CC2 /* takePhoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "takePhoto@2x.png"; sourceTree = "<group>"; };
+		68F7C44B21A03360008E5CC2 /* sureCamera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sureCamera@2x.png"; sourceTree = "<group>"; };
+		68F7C44C21A03360008E5CC2 /* sureCamera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sureCamera@3x.png"; sourceTree = "<group>"; };
+		68F7C44D21A03360008E5CC2 /* takePhoto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "takePhoto@3x.png"; sourceTree = "<group>"; };
+		68F7C44E21A03360008E5CC2 /* canclePhoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "canclePhoto@2x.png"; sourceTree = "<group>"; };
+		68F7C44F21A03360008E5CC2 /* cancleCamera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancleCamera@2x.png"; sourceTree = "<group>"; };
+		68F7C45021A03360008E5CC2 /* openFlish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "openFlish@2x.png"; sourceTree = "<group>"; };
+		68F7C45121A03360008E5CC2 /* cameraPhoto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cameraPhoto@3x.png"; sourceTree = "<group>"; };
+		68F7C45221A03360008E5CC2 /* clipPhoto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clipPhoto@3x.png"; sourceTree = "<group>"; };
+		68F7C45321A03360008E5CC2 /* clipPhoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clipPhoto@2x.png"; sourceTree = "<group>"; };
+		68F7C45421A03360008E5CC2 /* closeFlish@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closeFlish@3x.png"; sourceTree = "<group>"; };
+		68F7C45521A03360008E5CC2 /* closeFlish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closeFlish@2x.png"; sourceTree = "<group>"; };
+		68F7C45621A03360008E5CC2 /* surePhoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "surePhoto@2x.png"; sourceTree = "<group>"; };
+		68F7C45721A03360008E5CC2 /* backPhoto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backPhoto@3x.png"; sourceTree = "<group>"; };
+		68F7C45821A03360008E5CC2 /* backPhoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backPhoto@2x.png"; sourceTree = "<group>"; };
+		68F7C45921A03360008E5CC2 /* surePhoto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "surePhoto@3x.png"; sourceTree = "<group>"; };
+		68F7C45A21A03360008E5CC2 /* KJCameraVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCameraVC.h; sourceTree = "<group>"; };
+		68F7C45B21A03360008E5CC2 /* ClipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipViewController.h; sourceTree = "<group>"; };
+		68F7C45C21A03360008E5CC2 /* TKImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKImageView.m; sourceTree = "<group>"; };
+		68F7C47821A04A5C008E5CC2 /* KJHistoryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJHistoryVC.h; sourceTree = "<group>"; };
+		68F7C47921A04A5C008E5CC2 /* KJHistoryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJHistoryVC.m; sourceTree = "<group>"; };
+		68F7C47A21A04A5C008E5CC2 /* KJHistoryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KJHistoryVC.xib; sourceTree = "<group>"; };
+		A942997AB8A1A1BF2FD3CD2D /* libPods-FilterPhotos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FilterPhotos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC00C7F5A7820D171B22073B /* Pods-FilterPhotos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilterPhotos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FilterPhotos/Pods-FilterPhotos.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68B8CC7B219C13EA003B30FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9392124B85AC95E8A116DFE4 /* libPods-FilterPhotos.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2780F4E0093B08248E89FF85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A942997AB8A1A1BF2FD3CD2D /* libPods-FilterPhotos.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68B8CC75219C13EA003B30FC = {
+			isa = PBXGroup;
+			children = (
+				68B8CC80219C13EA003B30FC /* FilterPhotos */,
+				68B8CC7F219C13EA003B30FC /* Products */,
+				E64959F3059909CB4781EF91 /* Pods */,
+				2780F4E0093B08248E89FF85 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		68B8CC7F219C13EA003B30FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68B8CC7E219C13EA003B30FC /* FilterPhotos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68B8CC80219C13EA003B30FC /* FilterPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				68B8CC81219C13EA003B30FC /* AppDelegate.h */,
+				68B8CC82219C13EA003B30FC /* AppDelegate.m */,
+				68F7C41C21A00945008E5CC2 /* Libs */,
+				68F7C415219FFDAF008E5CC2 /* HomePage */,
+				68F7C411219FF249008E5CC2 /* Filter */,
+				68F7C44121A03360008E5CC2 /* CameraTool */,
+				68F7C47421A04A25008E5CC2 /* History */,
+				68B8CC8A219C13EC003B30FC /* Assets.xcassets */,
+				68B8CC8C219C13EC003B30FC /* LaunchScreen.storyboard */,
+				68B8CC8F219C13EC003B30FC /* Info.plist */,
+				68B8CC90219C13EC003B30FC /* main.m */,
+			);
+			path = FilterPhotos;
+			sourceTree = "<group>";
+		};
+		68F7C411219FF249008E5CC2 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				68F7C414219FF26A008E5CC2 /* Tools */,
+				68F7C413219FF264008E5CC2 /* View */,
+				68F7C412219FF259008E5CC2 /* ViewController */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		68F7C412219FF259008E5CC2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				68A70AE9219F3E4800883FB1 /* KJFilterVC.h */,
+				68A70AEA219F3E4800883FB1 /* KJFilterVC.m */,
+				68A70AEB219F3E4800883FB1 /* KJFilterVC.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		68F7C413219FF264008E5CC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68F7C40E219FB792008E5CC2 /* KJWaveView.h */,
+				68F7C40F219FB792008E5CC2 /* KJWaveView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		68F7C414219FF26A008E5CC2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				68B8CC97219C1420003B30FC /* KJFilterTools.h */,
+				68B8CC98219C1420003B30FC /* KJFilterTools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		68F7C415219FFDAF008E5CC2 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				68F7C43621A009B2008E5CC2 /* HomeViewController.h */,
+				68F7C43521A009B2008E5CC2 /* HomeViewController.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		68F7C41C21A00945008E5CC2 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				68F7C41D21A00953008E5CC2 /* WMPageController */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		68F7C41D21A00953008E5CC2 /* WMPageController */ = {
+			isa = PBXGroup;
+			children = (
+				68F7C42021A00953008E5CC2 /* WMMenuView */,
+				68F7C41F21A00953008E5CC2 /* WMPageConst.h */,
+				68F7C42D21A00953008E5CC2 /* WMPageController.h */,
+				68F7C41E21A00953008E5CC2 /* WMPageController.m */,
+			);
+			path = WMPageController;
+			sourceTree = "<group>";
+		};
+		68F7C42021A00953008E5CC2 /* WMMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				68F7C43921A00B5A008E5CC2 /* WMFooldView.h */,
+				68F7C43821A00B5A008E5CC2 /* WMFooldView.m */,
+				68F7C43B21A00B5A008E5CC2 /* WMProgressView.h */,
+				68F7C43A21A00B5A008E5CC2 /* WMProgressView.m */,
+				68F7C42321A00953008E5CC2 /* WMMenuItem.h */,
+				68F7C42721A00953008E5CC2 /* WMMenuItem.m */,
+				68F7C42421A00953008E5CC2 /* WMMenuView.h */,
+				68F7C42A21A00953008E5CC2 /* WMMenuView.m */,
+			);
+			path = WMMenuView;
+			sourceTree = "<group>";
+		};
+		68F7C44121A03360008E5CC2 /* CameraTool */ = {
+			isa = PBXGroup;
+			children = (
+				68F7C44521A03360008E5CC2 /* image */,
+				68F7C44421A03360008E5CC2 /* TKImageView.h */,
+				68F7C45C21A03360008E5CC2 /* TKImageView.m */,
+				68F7C45B21A03360008E5CC2 /* ClipViewController.h */,
+				68F7C44221A03360008E5CC2 /* ClipViewController.m */,
+				68F7C45A21A03360008E5CC2 /* KJCameraVC.h */,
+				68F7C44321A03360008E5CC2 /* KJCameraVC.m */,
+			);
+			path = CameraTool;
+			sourceTree = "<group>";
+		};
+		68F7C44521A03360008E5CC2 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				68F7C44621A03360008E5CC2 /* cameraPhoto@2x.png */,
+				68F7C44721A03360008E5CC2 /* openFlish@3x.png */,
+				68F7C44821A03360008E5CC2 /* cancleCamera@3x.png */,
+				68F7C44921A03360008E5CC2 /* canclePhoto@3x.png */,
+				68F7C44A21A03360008E5CC2 /* takePhoto@2x.png */,
+				68F7C44B21A03360008E5CC2 /* sureCamera@2x.png */,
+				68F7C44C21A03360008E5CC2 /* sureCamera@3x.png */,
+				68F7C44D21A03360008E5CC2 /* takePhoto@3x.png */,
+				68F7C44E21A03360008E5CC2 /* canclePhoto@2x.png */,
+				68F7C44F21A03360008E5CC2 /* cancleCamera@2x.png */,
+				68F7C45021A03360008E5CC2 /* openFlish@2x.png */,
+				68F7C45121A03360008E5CC2 /* cameraPhoto@3x.png */,
+				68F7C45221A03360008E5CC2 /* clipPhoto@3x.png */,
+				68F7C45321A03360008E5CC2 /* clipPhoto@2x.png */,
+				68F7C45421A03360008E5CC2 /* closeFlish@3x.png */,
+				68F7C45521A03360008E5CC2 /* closeFlish@2x.png */,
+				68F7C45621A03360008E5CC2 /* surePhoto@2x.png */,
+				68F7C45721A03360008E5CC2 /* backPhoto@3x.png */,
+				68F7C45821A03360008E5CC2 /* backPhoto@2x.png */,
+				68F7C45921A03360008E5CC2 /* surePhoto@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		68F7C47421A04A25008E5CC2 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				68F7C47721A04A44008E5CC2 /* Model */,
+				68F7C47621A04A3F008E5CC2 /* View */,
+				68F7C47521A04A35008E5CC2 /* ViewController */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		68F7C47521A04A35008E5CC2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				68F7C47821A04A5C008E5CC2 /* KJHistoryVC.h */,
+				68F7C47921A04A5C008E5CC2 /* KJHistoryVC.m */,
+				68F7C47A21A04A5C008E5CC2 /* KJHistoryVC.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		68F7C47621A04A3F008E5CC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		68F7C47721A04A44008E5CC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E64959F3059909CB4781EF91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC00C7F5A7820D171B22073B /* Pods-FilterPhotos.debug.xcconfig */,
+				37DF11FBD725E4CE7B76002E /* Pods-FilterPhotos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68B8CC7D219C13EA003B30FC /* FilterPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B8CC94219C13EC003B30FC /* Build configuration list for PBXNativeTarget "FilterPhotos" */;
+			buildPhases = (
+				A6E02CF38F52AEAA55A9E93F /* [CP] Check Pods Manifest.lock */,
+				68B8CC7A219C13EA003B30FC /* Sources */,
+				68B8CC7B219C13EA003B30FC /* Frameworks */,
+				68B8CC7C219C13EA003B30FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilterPhotos;
+			productName = FilterPhotos;
+			productReference = 68B8CC7E219C13EA003B30FC /* FilterPhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68B8CC76219C13EA003B30FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "杨科军";
+				TargetAttributes = {
+					68B8CC7D219C13EA003B30FC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 68B8CC79219C13EA003B30FC /* Build configuration list for PBXProject "FilterPhotos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68B8CC75219C13EA003B30FC;
+			productRefGroup = 68B8CC7F219C13EA003B30FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68B8CC7D219C13EA003B30FC /* FilterPhotos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68B8CC7C219C13EA003B30FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F7C47021A03360008E5CC2 /* backPhoto@3x.png in Resources */,
+				68F7C46B21A03360008E5CC2 /* clipPhoto@3x.png in Resources */,
+				68F7C46221A03360008E5CC2 /* canclePhoto@3x.png in Resources */,
+				68F7C46521A03360008E5CC2 /* sureCamera@3x.png in Resources */,
+				68B8CC8E219C13EC003B30FC /* LaunchScreen.storyboard in Resources */,
+				68F7C46721A03360008E5CC2 /* canclePhoto@2x.png in Resources */,
+				68B8CC8B219C13EC003B30FC /* Assets.xcassets in Resources */,
+				68F7C46A21A03360008E5CC2 /* cameraPhoto@3x.png in Resources */,
+				68F7C47C21A04A5C008E5CC2 /* KJHistoryVC.xib in Resources */,
+				68F7C46E21A03360008E5CC2 /* closeFlish@2x.png in Resources */,
+				68F7C46821A03360008E5CC2 /* cancleCamera@2x.png in Resources */,
+				68F7C47121A03360008E5CC2 /* backPhoto@2x.png in Resources */,
+				68F7C46121A03360008E5CC2 /* cancleCamera@3x.png in Resources */,
+				68F7C47221A03360008E5CC2 /* surePhoto@3x.png in Resources */,
+				68F7C46D21A03360008E5CC2 /* closeFlish@3x.png in Resources */,
+				68F7C46321A03360008E5CC2 /* takePhoto@2x.png in Resources */,
+				68F7C46021A03360008E5CC2 /* openFlish@3x.png in Resources */,
+				68F7C45F21A03360008E5CC2 /* cameraPhoto@2x.png in Resources */,
+				68A70AED219F3E4800883FB1 /* KJFilterVC.xib in Resources */,
+				68F7C46921A03360008E5CC2 /* openFlish@2x.png in Resources */,
+				68F7C46C21A03360008E5CC2 /* clipPhoto@2x.png in Resources */,
+				68F7C46621A03360008E5CC2 /* takePhoto@3x.png in Resources */,
+				68F7C46F21A03360008E5CC2 /* surePhoto@2x.png in Resources */,
+				68F7C46421A03360008E5CC2 /* sureCamera@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6E02CF38F52AEAA55A9E93F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FilterPhotos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68B8CC7A219C13EA003B30FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A70AEC219F3E4800883FB1 /* KJFilterVC.m in Sources */,
+				68B8CC91219C13EC003B30FC /* main.m in Sources */,
+				68B8CC99219C1420003B30FC /* KJFilterTools.m in Sources */,
+				68F7C43C21A00B5B008E5CC2 /* WMFooldView.m in Sources */,
+				68F7C410219FB792008E5CC2 /* KJWaveView.m in Sources */,
+				68F7C43121A00953008E5CC2 /* WMMenuItem.m in Sources */,
+				68F7C45D21A03360008E5CC2 /* ClipViewController.m in Sources */,
+				68F7C47321A03360008E5CC2 /* TKImageView.m in Sources */,
+				68F7C43321A00953008E5CC2 /* WMMenuView.m in Sources */,
+				68F7C43D21A00B5B008E5CC2 /* WMProgressView.m in Sources */,
+				68F7C45E21A03360008E5CC2 /* KJCameraVC.m in Sources */,
+				68F7C47B21A04A5C008E5CC2 /* KJHistoryVC.m in Sources */,
+				68F7C42E21A00953008E5CC2 /* WMPageController.m in Sources */,
+				68B8CC83219C13EA003B30FC /* AppDelegate.m in Sources */,
+				68F7C43721A009B2008E5CC2 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68B8CC8C219C13EC003B30FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B8CC8D219C13EC003B30FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68B8CC92219C13EC003B30FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68B8CC93219C13EC003B30FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68B8CC95219C13EC003B30FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC00C7F5A7820D171B22073B /* Pods-FilterPhotos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VH48VHTX9R;
+				INFOPLIST_FILE = FilterPhotos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangkejun.FilterPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68B8CC96219C13EC003B30FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37DF11FBD725E4CE7B76002E /* Pods-FilterPhotos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VH48VHTX9R;
+				INFOPLIST_FILE = FilterPhotos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangkejun.FilterPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68B8CC79219C13EA003B30FC /* Build configuration list for PBXProject "FilterPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B8CC92219C13EC003B30FC /* Debug */,
+				68B8CC93219C13EC003B30FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B8CC94219C13EC003B30FC /* Build configuration list for PBXNativeTarget "FilterPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B8CC95219C13EC003B30FC /* Debug */,
+				68B8CC96219C13EC003B30FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68B8CC76219C13EA003B30FC /* Project object */;
+}

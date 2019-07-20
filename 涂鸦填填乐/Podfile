@@ -1,0 +1,38 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, ‘9.0’
+
+target '涂鸦填填乐' do
+
+#########  主题相关  #########
+pod 'SDTheme'
+
+#########  Tool  #########
+pod 'YYKit'   # YYKit
+pod 'AFNetworking' #网络框架
+pod 'Masonry'  #自动布局
+pod 'IQKeyboardManager'  #键盘管理
+pod 'MBProgressHUD’ # 指示器
+pod 'MJRefresh'  # 刷新
+pod 'MJExtension'
+pod 'FMDB'  # 数据库
+pod "QCloudCOSV4" # 云存储
+#pod 'iCarousel'
+#pod 'RegExCategories' # 正则表达式
+
+
+
+#########  UIKit  #########
+#pod 'UAProgressView' # 环形进度条
+#pod 'TXScrollLabelView' # 文字滚动的label
+#pod 'TTTAttributedLabel'   # 富文本
+pod 'SDCycleScrollView'  # 轮播banner
+pod 'UICollectionViewLeftAlignedLayout'  # UICollectionView左对齐布局
+pod 'CHTCollectionViewWaterfallLayout'   # 瀑布流
+
+
+#########  Category  #########
+pod 'UITableView+FDTemplateLayoutCell' # 缓存tableViewCell的高度
+#pod 'libextobjc'  # 非常强大的Objective-C库的扩展
+
+
+end

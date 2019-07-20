@@ -1,0 +1,22 @@
+PODS:
+  - KJEmitterView (1.1.0):
+    - KJEmitterView/Classes (= 1.1.0)
+  - KJEmitterView/Classes (1.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - KJEmitterView
+  - Masonry
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KJEmitterView
+    - Masonry
+
+SPEC CHECKSUMS:
+  KJEmitterView: 11139c1ec4412ff64272a95119679909bd8d54f5
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 7b50be4b587e0c1670bf44683b3be388ac07cf9e
+
+COCOAPODS: 1.5.3

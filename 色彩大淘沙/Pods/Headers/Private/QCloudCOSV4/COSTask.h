@@ -1,0 +1,1 @@
+../../../QCloudCOSV4/coslib/COSTask.h

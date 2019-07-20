@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Go!宝可梦' do
+
+inhibit_all_warnings!  #禁止所有警告
+pod 'pop', :git => 'https://github.com/facebook/pop.git'  # 动画
+pod 'SDWebImage'
+
+end

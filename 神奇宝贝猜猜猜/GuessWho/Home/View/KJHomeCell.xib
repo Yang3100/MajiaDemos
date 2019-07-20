@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="KJHomeCell">
+            <rect key="frame" x="0.0" y="0.0" width="98" height="94"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="98" height="94"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fruit_bg" translatesAutoresizingMaskIntoConstraints="NO" id="OSR-Y7-lUE">
+                        <rect key="frame" x="0.0" y="0.0" width="98" height="94"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zhanweitu" translatesAutoresizingMaskIntoConstraints="NO" id="CFo-gQ-u2k">
+                        <rect key="frame" x="5" y="5" width="88" height="84"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="CFo-gQ-u2k" firstAttribute="centerY" secondItem="OSR-Y7-lUE" secondAttribute="centerY" id="0nB-Ac-BqY"/>
+                <constraint firstItem="CFo-gQ-u2k" firstAttribute="width" secondItem="OSR-Y7-lUE" secondAttribute="width" constant="-10" id="4oM-Pt-kco"/>
+                <constraint firstItem="CFo-gQ-u2k" firstAttribute="centerX" secondItem="OSR-Y7-lUE" secondAttribute="centerX" id="FwY-TB-cVz"/>
+                <constraint firstItem="OSR-Y7-lUE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="J6L-tU-Vvw"/>
+                <constraint firstAttribute="bottom" secondItem="OSR-Y7-lUE" secondAttribute="bottom" id="c6K-Ox-LQ2"/>
+                <constraint firstAttribute="trailing" secondItem="OSR-Y7-lUE" secondAttribute="trailing" id="eWT-lD-T1d"/>
+                <constraint firstItem="CFo-gQ-u2k" firstAttribute="height" secondItem="OSR-Y7-lUE" secondAttribute="height" constant="-10" id="fSY-Gr-ayu"/>
+                <constraint firstItem="OSR-Y7-lUE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="px7-HV-S64"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="98" height="94"/>
+            <connections>
+                <outlet property="kj_imageView" destination="CFo-gQ-u2k" id="QaM-Wf-vHg"/>
+            </connections>
+            <point key="canvasLocation" x="-86.400000000000006" y="50.374812593703155"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="fruit_bg" width="91" height="88"/>
+        <image name="zhanweitu" width="736" height="736"/>
+    </resources>
+</document>

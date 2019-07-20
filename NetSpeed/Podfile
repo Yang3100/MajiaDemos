@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'NetSpeed' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+  pod 'AFNetworking' # 网络相关
+  pod 'YYKit'
+  pod 'Masonry' #自动布局,约束相关
+  pod 'IQKeyboardManager' # 弹出键盘相关
+  pod 'MJRefresh' # 刷新
+  pod 'MBProgressHUD' # 指示器
+  pod 'FMDB' # 本地数据库
+  pod 'CHTCollectionViewWaterfallLayout' # 瀑布流
+  # Pods for NetSpeed
+
+end
+
+target 'NetSpeed - kjSpeed' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for NetSpeed - kjSpeed
+
+end

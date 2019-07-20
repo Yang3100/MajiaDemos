@@ -1,0 +1,30 @@
+PODS:
+  - pop (1.0.11)
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+
+DEPENDENCIES:
+  - pop (from `https://github.com/facebook/pop.git`)
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  pop:
+    :git: https://github.com/facebook/pop.git
+
+CHECKOUT OPTIONS:
+  pop:
+    :commit: 87d1f8b74cdaa4699d7a9f6be1ff5202014c581f
+    :git: https://github.com/facebook/pop.git
+
+SPEC CHECKSUMS:
+  pop: ae3ae187018759968252242e175c21f7f9be5dd2
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+
+PODFILE CHECKSUM: 7fd7af53a945b9c4c8c484bc97fb3fb596e5548d
+
+COCOAPODS: 1.5.3
